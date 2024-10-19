@@ -1,9 +1,21 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
+    <AssemblyName>Pozitron.Primitives</AssemblyName>
+    <PackageId>Pozitron.Primitives</PackageId>
+    <Title>Pozitron.Primitives</Title>
+    <Description>A thin library containing common primitives for pozitron libraries and applications.</Description>
+    <Summary>A thin library containing common primitives for pozitron libraries and applications.</Summary>
+
+    <Version>0.9.1</Version>
+    <PackageTags>fiseni pozitron primitives</PackageTags>
+    <PackageReleaseNotes>
+      Initial Release
+    </PackageReleaseNotes>
   </PropertyGroup>
+
+  <ItemGroup>
+    <InternalsVisibleTo Include="Pozitron.Primitives.Tests" />
+  </ItemGroup>
 
 </Project>
