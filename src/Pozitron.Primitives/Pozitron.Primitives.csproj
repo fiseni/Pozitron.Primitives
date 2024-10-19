@@ -7,7 +7,7 @@
     <Description>A thin library containing common primitives for pozitron libraries and applications.</Description>
     <Summary>A thin library containing common primitives for pozitron libraries and applications.</Summary>
 
-    <Version>0.9.1</Version>
+    <Version>0.9.1-beta</Version>
     <PackageTags>fiseni pozitron primitives</PackageTags>
     <PackageReleaseNotes>
       Initial Release
