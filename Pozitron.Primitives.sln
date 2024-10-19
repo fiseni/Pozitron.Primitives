@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35323.107
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pozitron.Primitives", "src\Pozitron.Primitives\Pozitron.Primitives.csproj", "{E6D0D31A-FD1C-4427-9A41-3A67F05136EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pozitron.Primitives.Tests", "tests\Pozitron.Primitives.Tests\Pozitron.Primitives.Tests.csproj", "{5FD8AC86-8444-461D-9470-2B166049ED14}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E6D0D31A-FD1C-4427-9A41-3A67F05136EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6D0D31A-FD1C-4427-9A41-3A67F05136EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6D0D31A-FD1C-4427-9A41-3A67F05136EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6D0D31A-FD1C-4427-9A41-3A67F05136EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FD8AC86-8444-461D-9470-2B166049ED14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FD8AC86-8444-461D-9470-2B166049ED14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FD8AC86-8444-461D-9470-2B166049ED14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FD8AC86-8444-461D-9470-2B166049ED14}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {33657958-5EBA-4D66-8BDF-8BB5F69AD11A}
+	EndGlobalSection
+EndGlobal
